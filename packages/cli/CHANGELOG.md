@@ -1,5 +1,13 @@
 # @backstage/cli
 
+## 0.3.2
+
+### Patch Changes
+
+- 294295453: Only load config that applies to the target package for frontend build and serve tasks. Also added `--package <name>` flag to scope the config schema used by the `config:print` and `config:check` commands.
+- f538e2c56: Make versions:bump install new versions of dependencies that were within the specified range as well as install new versions of transitive @backstage dependencies.
+- 8697dea5b: Bump Rollup
+
 ## 0.3.1
 
 ### Patch Changes
